@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hello.sulabh.com.helloworld.MainActivity">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id = "@+id/image_birthday"
+        android:src="@drawable/bbirthday"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:textColor="@android:color/holo_red_dark"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/tv_to"
+        android:textSize="29sp"
+        android:padding="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday, Durlabh !" />
+
+
+    <TextView
+        android:textColor="@android:color/holo_red_light"
+        android:fontFamily="sans-serif-light"
+        android:textSize="30sp"
+        android:id="@+id/tv_from"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From, Sulabh Bartaula !"
+        android:padding="20dp"
+
+        />
+
+</RelativeLayout>
